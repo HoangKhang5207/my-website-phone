@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KPhone-Trang Chủ</title>
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- Slick Slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg navbar-dark" role="navigation">
+      <div class="container-fluid">
+        <a href="./index.html" class="logo-img navbar-brand">
+          <span>KPhSury</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Trang chủ</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sản phẩm
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./products.html">Tất cả</a>
+                </li>
+                <li><a class="dropdown-item" href="./iPhone_products.html">iPhone</a></li>
+                <li><a class="dropdown-item" href="./Samsung_products.html">Samsung</a></li>
+                <li>
+                  <a class="dropdown-item" href="./Xiaomi_products.html">Xiaomi</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">Về tôi</a>
+            </li>
+            <li class="nav-item">
+              <a href="./signup.html" class="nav-link"
+                >Đăng nhập&nbsp;/&nbsp;Đăng ký</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./cart.html" class="nav-link">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex" id="search-header" role="search">
+            <input
+              class="form-control me-2 search-inp"
+              type="search"
+              placeholder="Bạn cần tìm gì?"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success search-btn" type="submit">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-container">
+      <img src="./img/banner_2.png" alt="" />
+      <img src="./img/banner_1.png" alt="" />
+      <img src="./img/banner_3.png" alt="" />
+      <img src="./img/banner_4.png" alt="" />
+      <img src="./img/banner_5.png" alt="" />
+    </section>
+
+    <section class="feature-container section-padding">
+      <div class="feature-box">
+        <img src="./img/features/ff1.png" alt="F1" />
+        <h6>Miễn Phí Vận Chuyển</h6>
+      </div>
+      <div class="feature-box">
+        <img src="./img/features/ff2.png" alt="F1" />
+        <h6>Đặt Hàng Trực Tuyến</h6>
+      </div>
+      <div class="feature-box">
+        <img src="./img/features/ff3.png" alt="F1" />
+        <h6>Tiết Kiệm Tiền</h6>
+      </div>
+      <div class="feature-box">
+        <img src="./img/features/ff4.png" alt="F1" />
+        <h6>Khuyến Mãi</h6>
+      </div>
+      <div class="feature-box">
+        <img src="./img/features/ff5.png" alt="F1" />
+        <h6>Uy tín</h6>
+      </div>
+      <div class="feature-box">
+        <img src="./img/features/ff6.png" alt="F1" />
+        <h6>Hỗ trợ 24/7</h6>
+      </div>
+    </section>
+
+    <section class="products-container section-padding">
+      <h2>Các sản phẩm nổi bật</h2>
+      <div class="products">
+        <div
+          class="product"
+          onclick="window.location.href='iPhone14ProMax_product_detail.html';"
+        >
+          <img
+            src="./img/products/iPhone/iPhone14/iphone14_tim.png"
+            alt=""
+            class="product__image"
+          />
+          <div class="product__desc">
+            <div class="product__name">
+              <span>iPhone</span>
+              <h5>iPhone 14 Pro Max 128GB | Chính hãng VN/A</h5>
+            </div>
+            <div class="product__price">
+              <p class="product__price-new">25,191,600 ₫</p>
+              <p class="product__price-old"><s>29,990,000 ₫</s></p>
+            </div>
+            <div class="product__rating-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <a href="#" class="product__cart-link">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+          <span class="product__sale"> -16%</span>
+        </div>
+        <div
+          class="product"
+          onclick="window.location.href='iPhone14_product_detail.html';"
+        >
+          <img
+            src="./img/products/iPhone/iPhone14/iphone14_proMax_tim.png"
+            alt=""
+            class="product__image"
+          />
+          <div class="product__desc">
+            <div class="product__name">
+              <span>iPhone</span>
+              <h5>iPhone 14 Pro 128GB | Chính hãng VN/A</h5>
+            </div>
+            <div class="product__price">
+              <p class="product__price-new">25,191,600 ₫</p>
+              <p class="product__price-old"><s>29,990,000 ₫</s></p>
+            </div>
+            <div class="product__rating-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <a href="#" class="product__cart-link">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+          <span class="product__sale"> -16%</span>
+        </div>
+        <div
+          class="product"
+          onclick="window.location.href='iPhone13ProMax_product_detail.html';"
+        >
+          <img
+            src="./img/products/iPhone/iPhone13/iphone13_proMax_xanhDuong.png"
+            alt=""
+            class="product__image"
+          />
+          <div class="product__desc">
+            <div class="product__name">
+              <span>iPhone</span>
+              <h5>iPhone 13 Pro Max 128GB | Chính hãng VN/A</h5>
+            </div>
+            <div class="product__price">
+              <p class="product__price-new">24,351,600 ₫</p>
+              <p class="product__price-old"><s>28,990,000 ₫</s></p>
+            </div>
+            <div class="product__rating-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <a href="#" class="product__cart-link">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+          <span class="product__sale"> -16%</span>
+        </div>
+        <div
+          class="product"
+          onclick="window.location.href='iPhone13_product_detail.html';"
+        >
+          <img
+            src="./img/products/iPhone/iPhone13/iphone13_xanhDuong.png"
+            alt=""
+            class="product__image"
+          />
+          <div class="product__desc">
+            <div class="product__name">
+              <span>iPhone</span>
+              <h5>iPhone 13 Pro 128GB | Chính hãng VN/A</h5>
+            </div>
+            <div class="product__price">
+              <p class="product__price-new">20,151,600 ₫</p>
+              <p class="product__price-old"><s>23,990,000 ₫</s></p>
+            </div>
+            <div class="product__rating-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <a href="#" class="product__cart-link">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+          <span class="product__sale"> -16%</span>
+        </div>
+        <div
+          class="product"
+          onclick="window.location.href='SamsungS23Ultra_product_detail.html';"
+        >
+          <img
+            src="./img/products/Samsung/S23Ultra/ss_galaxys23ultra_trang.png"
+            alt=""
+            class="product__image"
+          />
+          <div class="product__desc">
+            <div class="product__name">
+              <span>Samsung</span>
+              <h5>Samsung Galaxy S23 Ultra 256GB</h5>
+            </div>
+            <div class="product__price">
+              <p class="product__price-new">26,871,600 ₫</p>
+              <p class="product__price-old"><s>31,990,000 ₫</s></p>
+            </div>
+            <div class="product__rating-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <a href="#" class="product__cart-link">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+          <span class="product__sale"> -16%</span>
+        </div>
+        <div
+          class="product"
+          onclick="window.location.href='SamsungS22Ultra_product_detail.html';"
+        >
+          <img
+            src="./img/products/Samsung/S22Ultra/ss_galaxys22ultra_trang.png"
+            alt=""
+            class="product__image"
+          />
+          <div class="product__desc">
+            <div class="product__name">
+              <span>Samsung</span>
+              <h5>Samsung Galaxy S22 Ultra 256GB</h5>
+            </div>
+            <div class="product__price">
+              <p class="product__price-new">28,551,600 ₫</p>
+              <p class="product__price-old"><s>33,990,000 ₫</s></p>
+            </div>
+            <div class="product__rating-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <a href="#" class="product__cart-link">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+          <span class="product__sale"> -16%</span>
+        </div>
+        <div
+          class="product"
+          onclick="window.location.href='XiaomiNote12Pro_product_detail.html';"
+        >
+          <img
+            src="./img/products/Xiaomi/Note12Pro/xiaomi_note12Pro_den.png"
+            alt=""
+            class="product__image"
+          />
+          <div class="product__desc">
+            <div class="product__name">
+              <span>Xiaomi</span>
+              <h5>Xiaomi Redmi Note 12 Pro 5G</h5>
+            </div>
+            <div class="product__price">
+              <p class="product__price-new">7,971,600 ₫</p>
+              <p class="product__price-old"><s>9,490,000 ₫</s></p>
+            </div>
+            <div class="product__rating-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <a href="#" class="product__cart-link">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+          <span class="product__sale"> -16%</span>
+        </div>
+        <div
+          class="product"
+          onclick="window.location.href='XiaomiNote11Pro_product_detail.html';"
+        >
+          <img
+            src="./img/products/Xiaomi/Note11Pro/xiaomi_note11Pro_den.png"
+            alt=""
+            class="product__image"
+          />
+          <div class="product__desc">
+            <div class="product__name">
+              <span>Xiaomi</span>
+              <h5>Xiaomi Redmi Note 11 Pro 5G</h5>
+            </div>
+            <div class="product__price">
+              <p class="product__price-new">7,551,600 ₫</p>
+              <p class="product__price-old"><s>8,990,000 ₫</s></p>
+            </div>
+            <div class="product__rating-star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <a href="#" class="product__cart-link">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+          <span class="product__sale"> -16%</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner__container section-margin">
+      <h2>Xem thêm các sản phẩm iPhone tại shop</h2>
+      <button
+        class="normal"
+        onclick="window.location.href='iPhone_products.html';"
+      >
+        Xem ngay
+      </button>
+    </section>
+
+    <section class="banner-wrap1 section-padding">
+      <div class="banner-item">
+        <h2>Các sản phẩm Samsung</h2>
+        <button
+          class="white"
+          onclick="window.location.href='Samsung_products.html';"
+        >
+          Xem ngay
+        </button>
+      </div>
+      <div class="banner-item">
+        <h2>Các sản phẩm Xiaomi</h2>
+        <button
+          class="white"
+          onclick="window.location.href='Xiaomi_products.html';"
+        >
+          Xem ngay
+        </button>
+      </div>
+    </section>
+
+    <footer class="section-padding">
+      <div class="col-contact">
+        <a href="./index.html" class="logo-img">
+          <span>KPhSury</span>
+        </a>
+        <h4>Liên lạc</h4>
+        <p><strong>Địa chỉ:</strong>&nbsp;&nbsp;TP Hồ Chí Minh</p>
+        <p><strong>Điện thoại:</strong>&nbsp;&nbsp;0779009487</p>
+        <p><strong>Email:</strong>&nbsp;&nbsp;hoangkhang16112003@gmail.com</p>
+        <p>
+          <strong>Giờ làm:</strong>&nbsp;&nbsp;8:00 - 22:00, Thứ Hai - Chủ Nhật
+        </p>
+        <div class="follow">
+          <h4>Theo dõi chúng tôi</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-about">
+        <h4>Về chúng tôi</h4>
+        <a href="#">Về chúng tôi</a>
+        <a href="#">Thông tin giao hàng</a>
+        <a href="#">Chính sách bảo mật</a>
+        <a href="#">Điều khoản & Điều kiện</a>
+        <a href="#">Liên hệ chúng tôi</a>
+      </div>
+      <div class="col-account">
+        <h4>Tài khoản của tôi</h4>
+        <a href="#">Đăng nhập</a>
+        <a href="#">Thông tin giỏ hàng</a>
+        <a href="#">Sản phẩm yêu thích</a>
+        <a href="#">Theo dõi đơn hàng của tôi</a>
+        <a href="#">Hỗ trợ</a>
+      </div>
+      <div class="copyright">
+        <p>© 2023, Nguyễn Võ Hoàng Khang - E - Commerce Website</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Slick Slider -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

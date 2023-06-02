@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KPhone-Chúng Tôi</title>
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg navbar-dark" role="navigation">
+      <div class="container-fluid">
+        <a href="./index.html" class="logo-img navbar-brand">
+          <span>KPhSury</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Trang chủ</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sản phẩm
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./products.html">Tất cả</a>
+                </li>
+                <li><a class="dropdown-item" href="./iPhone_products.html">iPhone</a></li>
+                <li><a class="dropdown-item" href="./Samsung_products.html">Samsung</a></li>
+                <li>
+                  <a class="dropdown-item" href="./Xiaomi_products.html">Xiaomi</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./about.html">Về tôi</a>
+            </li>
+            <li class="nav-item">
+              <a href="./signup.html" class="nav-link"
+                >Đăng nhập&nbsp;/&nbsp;Đăng ký</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./cart.html" class="nav-link">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex" id="search-header" role="search">
+            <input
+              class="form-control me-2 search-inp"
+              type="search"
+              placeholder="Bạn cần tìm gì?"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success search-btn" type="submit">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <section class="page-header about-header">
+      <h2>#Về Chúng Tôi</h2>
+    </section>
+
+    <section class="about-head section-padding">
+      <img src="./img/about_us.png" alt="" class="about-img" />
+      <div class="about-intro">
+        <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-home"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+            >
+              Giới Thiệu
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-profile"
+              type="button"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+            >
+              Thông Tin
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-contact"
+              type="button"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+            >
+              Liên Lạc
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-home"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+            tabindex="0"
+          >
+            <h2>Đồ Án Môn Học</h2>
+            <p>
+              KPhSury - Website thương mại điện tử - Bán các sản phẩm điện thoại iPhone,
+              Samsung, Xiaomi.
+            </p>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-profile"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+            tabindex="0"
+          >
+            <h2>Tôi Là Ai?</h2>
+            <p>
+              Họ và Tên: <strong>Nguyễn Võ Hoàng Khang</strong>. <br />
+              Mã số sinh viên: <strong>2001215853</strong>. <br />
+              Khoa: <strong>Công Nghệ Thông Tin</strong>. <br />
+              Chuyên ngành: <strong>Công Nghệ Phần Mềm</strong>. <br />
+            </p>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-contact"
+            role="tabpanel"
+            aria-labelledby="pills-contact-tab"
+            tabindex="0"
+          >
+            <h2>Cách Thức Liên Lạc?</h2>
+            <p>
+              Số điện thoại: <strong>0779009487</strong>. <br />
+              Email: <strong>hoangkhang16112003@gmail.com</strong>. <br />
+              Địa chỉ: <strong>TP Hồ Chí Minh</strong>. <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-video section-padding">
+      <h2>
+        Thiết kế mới nhất của iPhone 14 Pro/Pro Max.
+        <a href="./product_detail.html">Xem ngay</a>
+      </h2>
+      <div class="video-container">
+        <video
+          autoplay
+          muted
+          loop
+          src="./img/Introducing Dynamic Island on iPhone 14 Pro _ Apple.mp4"
+        ></video>
+      </div>
+    </section>
+
+    <section class="feature-container section-padding">
+      <div class="feature-box">
+        <img src="./img/features/ff1.png" alt="F1" />
+        <h6>Miễn Phí Vận Chuyển</h6>
+      </div>
+      <div class="feature-box">
+        <img src="./img/features/ff2.png" alt="F1" />
+        <h6>Đặt Hàng Trực Tuyến</h6>
+      </div>
+      <div class="feature-box">
+        <img src="./img/features/ff3.png" alt="F1" />
+        <h6>Tiết Kiệm Tiền</h6>
+      </div>
+      <div class="feature-box">
+        <img src="./img/features/ff4.png" alt="F1" />
+        <h6>Khuyến Mãi</h6>
+      </div>
+      <div class="feature-box">
+        <img src="./img/features/ff5.png" alt="F1" />
+        <h6>Uy tín</h6>
+      </div>
+      <div class="feature-box">
+        <img src="./img/features/ff6.png" alt="F1" />
+        <h6>Hỗ trợ 24/7</h6>
+      </div>
+    </section>
+
+    <footer class="section-padding">
+      <div class="col-contact">
+        <a href="./index.html" class="logo-img">
+          <span>KPhSury</span>
+        </a>
+        <h4>Liên lạc</h4>
+        <p><strong>Địa chỉ:</strong>&nbsp;&nbsp;TP Hồ Chí Minh</p>
+        <p><strong>Điện thoại:</strong>&nbsp;&nbsp;0779009487</p>
+        <p><strong>Email:</strong>&nbsp;&nbsp;hoangkhang16112003@gmail.com</p>
+        <p>
+          <strong>Giờ làm:</strong>&nbsp;&nbsp;8:00 - 22:00, Thứ Hai - Chủ Nhật
+        </p>
+        <div class="follow">
+          <h4>Theo dõi chúng tôi</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-about">
+        <h4>Về chúng tôi</h4>
+        <a href="#">Về chúng tôi</a>
+        <a href="#">Thông tin giao hàng</a>
+        <a href="#">Chính sách bảo mật</a>
+        <a href="#">Điều khoản & Điều kiện</a>
+        <a href="#">Liên hệ chúng tôi</a>
+      </div>
+      <div class="col-account">
+        <h4>Tài khoản của tôi</h4>
+        <a href="#">Đăng nhập</a>
+        <a href="#">Thông tin giỏ hàng</a>
+        <a href="#">Sản phẩm yêu thích</a>
+        <a href="#">Theo dõi đơn hàng của tôi</a>
+        <a href="#">Hỗ trợ</a>
+      </div>
+      <div class="copyright">
+        <p>© 2023, Nguyễn Võ Hoàng Khang - E - Commerce Website</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
